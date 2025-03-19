@@ -4,7 +4,7 @@ html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .mylogo{
-    
+    justify-self:left;
     font-style:italic;
     font-size: 2em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,26 +21,47 @@ header img{
     height: 100%;
     margin: 0 auto;
     display: block;
-    max-height: 175px;
+    max-height: 150px;
+    max-width: 1000px;
+     
+}
+    
+.dealer{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    max-height: 200px;
+    max-width: 750px;
+    border: 1px solid black;
+    padding-top: 20px;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.select{
+    grid-row-start: 1;
+    grid: row end 5px;
+    grid-column: 1;
+    justify-items: left;
+    border: 3px solid seashell;
+    font-size: 2em;
     
 }
-body{
-    display: flex;
-    flex-direction: column;
+h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 5em;
 }
-.shop,
-.category,
-.status,
-.user{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding:20px;
-    margin-bottom: 20px;
-    border: 5px solid white;
-    
-}  
+p{
+    text-align: center;
+    font-size: 1.5em;
+}
+
 #status{
     margin-bottom: 30px;
 
@@ -49,7 +70,7 @@ body{
 footer{
     display: flex;
     flex-direction: row;
-    position: fixed;
+    
     bottom: 0;
     justify-content: space-between;
     width: 100%;
@@ -57,4 +78,17 @@ footer{
 }
 .copy{
     font-size: 0.8em;
+}
+.tkit {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 auto;
+}
+.kits{
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
 }

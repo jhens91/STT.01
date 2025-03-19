@@ -13,7 +13,8 @@ header img{
     height: 100%;
     margin: 0 auto;
     display: block;
-    max-height: 175px;
+    max-height: 250px;
+    max-width: auto;
     
 }
 .mylogo{
