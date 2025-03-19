@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="STTP3.css">
+  <title>Register</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul>
+        <li><a href="STTP2.html">Home</a></li>
+        <li><a href="STTP1.html">Login</a></li>
+        <li><a href="STTP3.html">Register</a></li>
+      </ul>
+    </nav>
+    <p class="mylogo">STT</p>
+  </header>
+  <p class="register" id="regi">Register</p>
+    <form action="register.php" method="post" class="register">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password">
+        <p>Password Requirements: </p>
+        <p class="require">Must be atleast 8 characters long</p>
+        <p class="require">Must contain atleast one uppercase letter</p>
+        <p class="require">Must contain atleast one lowercase letter</p>
+        <p class="require">Must contain atleast one number</p>
+        <p class="require">Must contain atleast one special character</p>
+        <br>
+        <label for="confirm_password">Confirm Password:</label><br>
+        <input type="password" id="confirm_password" name="confirm_password"><br>
+        <input type="submit" value="Register">
+    </form>
+    <p class="register">Already have an account? <a href="STTP1.html">Login here</a>    
+  </p>
+</body>
+<footer>
+    <nav class="nav">
+      <ul>
+        <li><a href="STTP2.html">Home</a></li>
+        <li><a href="STTP1.html">Login</a></li>
+        <li><a href="#">Register</a></li>
+      </ul>
+    </nav>
+    <p class="copy">&copy; 2025 Shop Tool Tracker</p>
+</footer>
+</html>

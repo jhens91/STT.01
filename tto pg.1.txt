@@ -1,0 +1,12 @@
+tto pg.1
+
+Login page
+
+Requirements:
+customer/company logo in header
+
+login box in center:
+user:				current planned users: Jim/PartsMainShop, Tim/PartsBodyShop, Pringle/Mainshop, Mark/Bodyshop, 
+pass:				NOTE: need to add ability to add users to admin accounts (Jim/PartsMan, Mike/FixedOpsMan, NEady/ServMan, Tim/BodyShopMan)
+forgot user/pass		NOTE: need to add specific authorized users, Responsibility will be on individual who checks in/out, tech should verify at counter as well
+

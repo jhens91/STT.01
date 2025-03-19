@@ -1,0 +1,13 @@
+tto pg. 4
+Order page:
+Lists: 
+Tkits/tools with missing components, as well as p/n for those components:
+  ex. tkit-2025-abc (1/2)**  missing p/n: 303-xyz.
+Tkits/tools in need of maintenance or replacing:
+ex. R1234-YF machine - needs o2 sensor
+
+Add-a-tool:
+Sel to add a tool, input it's category and name/number.
+
+wish list:
+tools recommended by technicians, along with cost to fit into monthly/quarterly/yearly budgets

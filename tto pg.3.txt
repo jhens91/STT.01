@@ -1,0 +1,8 @@
+tto pg.3
+Verification page:
+list Selected tool/tkit:
+  Tkit Contents
+  Any relevant notes for tool/tkit
+Verification of complete or incomplete (y/n selection?)
+Employee number of tech checking out
+Employee number of "cashier" responsible for verification (ex. Jim's EN)

@@ -1,0 +1,7 @@
+tto pg.2
+Main used page:
+ 1st Sel: Shop: Current options: Main Shop, Body Shop (rename in production), Other Shop (rename in production, or not list but add ability to add location)
+ 2nd Sel: Tool Category: Current options: Manufacturer (Ford), External (BG), Internal (Shop)
+ 3rd Sel: Tool Options, with search option:
+	   Needs to have availability indicator:
+           Needs to add note indicator, note to either appear on hover or on page 3.

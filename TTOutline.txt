@@ -1,0 +1,27 @@
+Tool Tracker:
+Features:
+Admin/Cashier - checks tools in/out
+  require verification of tools in kit
+  add notes for missing/broken tools
+  check in/out by tech#/name/Shop (upper/lower or 1/2)
+  ability to add more shop/shop locations if necessary
+  ability to record time checked out
+  ability to have multiple users logged in for each store( up to 5 per dealership )
+  
+Need To Order
+  list of tkits with missing or broken parts
+
+Wish list
+  technician suggested shop tools
+
+Inventory
+  log of kits in inventory and checked out
+    color coded? Green-in stock, Gray-checked out, Yellow - missing parts, red - missing
+  Also add Specialty, non-tkit, tools (ex: ids, vcm, engine hoists, smoke machine, etc.)
+
+Ability to add tkits and special tools as necessary
+  ability to remove outdated/replaced tools (ex. VCM2, etc.)
+
+Ability to integrate into teams, or make as a team app.
+
+

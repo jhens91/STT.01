@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="STTP4.css">
+  <title>Shop Tool Tracker</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul>
+        <li><a href="STTP4.html">Home</a></li>
+        <li><a href="STTP1.html">Login</a></li>
+        <li><a href="STTP3.html">Register</a></li>
+        <li><a href="#">Your Tools</a></li>
+      </ul>
+    </nav>
+    <p class="mylogo">STT</p>
+    <img src="https://media.licdn.com/dms/image/v2/D563DAQFZ2xh1YGi6fA/image-scale_191_1128/image-scale_191_1128/0/1707940021622/hudson_automotive_cover?e=2147483647&v=beta&t=28wzAkdUim-2p-kUFElbBkazwUVQyulmSh_TSmLYKkA" alt="Hudson Automotive Logo">
+  </header>
+    <div class="select">
+      <div class="shop">
+        <!-- shop where cashier is logging in from/for -->
+      <select id="shop" name="shop">
+        <option value="shop">Shop</option>
+        <option value="shop1">Main Shop</option>
+        <option value="shop2">Heavy Shop</option>
+        <option value="shop3">New Shop</option>
+        <option value="shop4">Shop 4</option>
+        </select>
+      </div>
+      <div class="category">
+         <!-- category of tool (ie: Ford, BG, Shop Tool, etc.)-->
+        <select id="category" name="category">
+        <option value="category">Tool Category</option>
+        <!-- default display, explains what we're selecting, (ie: what is "origin" or "owner" of tool)-->
+        <option value="cat1">Ford</option>
+        <!-- manufacturer tool (ie. ford, gmc, honda, john deere, etc. )-->
+        <option value="cat2">BG</option>
+        <!-- external company/contractor tools (ie. bg, moc, etc. )-->
+        <option value="cat3">Shop Tool</option>
+        <!-- tools that are owned by the shop -->
+        <option value="cat4">Category 4</option>
+        <!-- TBD by needs of company using product -->
+         </select>
+      </div>
+      <div class="status">
+        <!-- status of tool, make hover feature to display notes (ie: missing x part, tool damaged, etc.)-->
+        <select id="status" name="status">
+        <option value="status">Status</option>
+        <option value="status1">Available</option>
+        <option value="status2">Checked Out</option>
+        <option value="status3">Maintenance</option>
+      </div>
+      <div class="user">
+        <!-- user who checked out tool -->
+        <select id="user" name="user">
+        <option value="user">User:</option>
+       <input type="text" id="user" name="user">
+        
+      </div>
+      <!-- last date checked out or in... or last date status was updated,
+       currently commented out because we're not sure if we want to include this -->
+       <!--
+      <div class="date">
+        <label for="date">Date:</label><br>
+        <input type="date" id="date" name="date">
+      </div> -->
+    </div>
+</body>
+<footer>
+    <nav class="nav">
+      <ul>
+        <li><a href="STTP2.html">Home</a></li>
+        <li><a href="STTP1.html">Login</a></li>
+        <li><a href="STTP3.html">Register</a></li>
+        <li><a href="#">Your Tools</a></li>
+      </ul>
+    </nav>
+    <p class="copy">&copy; 2025 Shop Tool Tracker</p>
+</footer>
+</html>
