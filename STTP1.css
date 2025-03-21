@@ -13,9 +13,19 @@ header img{
     height: 100%;
     margin: 0 auto;
     display: block;
-    max-height: 250px;
-    max-width: auto;
+    max-height: 150px;
+    max-width: 1000px;
+     
+}
+
+.dealer{
     
+    margin: 0 auto;
+    display: block;
+    max-height: 200px;
+    max-width: 750px;
+    border: 1px solid black;
+    padding-top: 20px;
 }
 .mylogo{
    
