@@ -24,6 +24,7 @@ header img{
     max-width: 1000px;
      
 }
+
 .dealer{
     width: 100%;
     height: 100%;
@@ -42,6 +43,9 @@ h1{
     text-align: center;
     padding-top: 50px;
     font-size: 5em;
+    background-color: slategray;
+    border: 5px solid white;
+    padding-top: 10px;
 }
 p{
     text-align: center;
@@ -51,6 +55,7 @@ p{
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
     grid-template-rows: 1fr 1fr;  
+   
 }
 .menu{
     display: grid;
@@ -139,28 +144,47 @@ p{
     padding-top: 30px;
     padding-left: 30px;
     padding-right: 30px;
+    background-color: slategray;
+    color: black;
+    font-weight: bold;
     
 }
-tr.display{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-
+.display input{
+    width: 100%;
+    height: 20px;
+    font-size: 1em;
+    border: 2px solid black;
+    border-radius: 5px;
 }
-.submit {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
+.list1{
+    border: 2px solid rgb(4, 19, 102);
+}
+.listline{
+ width: 90%;  
+ padding: 5px; 
+}
+#submit {
+ 
     background-color: rgb(255, 255, 255);
     justify-self: center;
-    align-self: left;  
+      
     width: 100%;
-    height: 10%;
+    height: 40px;
     margin-top: 20px;
     border: 2px solid rgb(255, 249, 249);
     font-size: 1.5em;
-    
+    border: 3px solid black;
+    border-radius: 5px;
 }
-.submit:active{
+#submit:active{
     background-color: green;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color:gray;
+    bottom: 0;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed
 }

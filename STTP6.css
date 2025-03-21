@@ -9,13 +9,11 @@ html{
     font-size: 2em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: darkred;
- 
 }
 .nav li{
     display: inline-block;
     margin-right: 20px;
-    
-     
+      
 }
 header img{
     width: 100%;
@@ -26,7 +24,7 @@ header img{
     max-width: 1000px;
      
 }
-    
+
 .dealer{
     width: 100%;
     height: 100%;
@@ -37,35 +35,48 @@ header img{
     border: 1px solid black;
     padding-top: 20px;
 }
-
-
-.select{
-    grid-row-start: 1;
-    grid: row end 5px;
-    grid-column: 1;
-    justify-items: left;
-    border: 3px solid seashell;
-    border-radius: 10px;;
-    font-size: 2em;
-    background-color: slategray;
-
-    
-}
 h1{
     text-align: center;
     padding-top: 50px;
     font-size: 5em;
+    background-color: slategray;
+    border: 5px solid white;
+    padding-top: 10px;
 }
 p{
     text-align: center;
     font-size: 1.5em;
 }
-
-#status{
-    margin-bottom: 30px;
-
+h2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3em;
+    background-color: slategray;
+    border: 5px solid white;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: black;
+    font-weight: bolder;
 }
-
+.tool{
+    
+    margin: 0 auto;
+    display: block;
+    max-height: 200px;
+    max-width: 750px;
+    border: 1px solid black;
+    padding-top: 20px;
+}
+.selected{
+    border: 3px solid white;
+    background-color: slategray;
+    color: black;
+    font-weight: bold;;
+    
+}
+.listline{
+    border: 1px solid black
+}
 footer{
     display: flex;
     flex-direction: row;
@@ -74,42 +85,4 @@ footer{
     justify-content: space-between;
     width: 100%;
     position: fixed
-}
-.copy{
-    font-size: 0.8em;
-}
-.tkit {
-    max-width: 100px;
-    max-height: 100px;
-    margin: 0 auto;
-}
-.kits{
-    display: grid;
-    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-    background-color: slategray;
-    padding: 10px;
-    border: 1px solid white;
-    border-radius: 10px;
-    overflow: scroll;
-}
-.kits img{
-    max-width: 100%;
-    max-height: 100%;
-    margin: 0 auto;
-    display: block;
-    border: 1px solid white;
-    border-radius: 10px;
-    
-}
-.search{
-    height: 2.5em;
-    width: 20em;
-    margin: 3px;
-    border-radius: 10px;
-}
-.look{
-    height: 2.5em;
-    width: 10em;
-    margin: 2px;
-    border-radius: 5px;
 }

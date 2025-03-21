@@ -6,7 +6,7 @@ html{
 .nav li{
     display: inline-block;
     margin-right: 20px;
-    
+   
 }
 header img{
     width: 100%;
@@ -37,11 +37,11 @@ header img{
 footer{
     display: flex;
     flex-direction: row;
-    position: fixed;
+    background-color:gray;
     bottom: 0;
     justify-content: space-between;
     width: 100%;
-
+    position: fixed
 }
 .copy{
     font-size: 0.8em;
